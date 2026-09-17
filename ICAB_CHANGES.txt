@@ -1,0 +1,14 @@
+Custom GUI changes
+==================
+
+Global visual hide toggle:
+- Press J once to hide the GUI and temporarily suspend active ESP visual toggles.
+- Press J again to restore the GUI and ESP toggles that were active before hiding.
+- J is ignored while typing in an input, textarea, select, or editable field.
+
+Files changed:
+- cheats/gui.js
+- cheats/gui.min.js (functional mirror of gui.js in this custom build)
+
+Important:
+This build preserves the original repository logic. Compatibility with the current Blooket website cannot be guaranteed without live integration testing against the current site internals.
